@@ -5,15 +5,23 @@
           box-sizing: border-box;
 }
 
-#my-name {
+#section_1 {
+  background: black;
+}
+
+#section_1 #my-name {
+  color: white;
   font-size: 75px;
   font-family: 'Montserrat';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+}
+
+#section_1 #logo-container {
   text-align: center;
+}
+
+#section_1 #logo-container i {
+  color: white;
+  padding: 10px 20px 0px 20px;
 }
 
 .section-header-text {
