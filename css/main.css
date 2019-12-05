@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#my-name {
+  font-size: 75px;
+  font-family: 'Montserrat';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.section-header-text {
+  font-size: 60px;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#section_1 {
+  height: 100vh;
+}
+
+#section_2 {
+  height: 100vh;
+}
