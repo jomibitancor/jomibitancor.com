@@ -5,23 +5,48 @@
           box-sizing: border-box;
 }
 
+#fp-nav span {
+  background: white;
+}
+
 #section_1 {
   background: black;
 }
 
-#section_1 #my-name {
+#section_1 #name-container {
+  margin-left: 50%;
+  -webkit-transform: translate(-25%, 0%);
+          transform: translate(-25%, 0%);
+}
+
+#section_1 #name-container .my-name {
   color: white;
   font-size: 75px;
   font-family: 'Montserrat';
 }
 
-#section_1 #logo-container {
-  text-align: center;
+#section_1 #name-container #john {
+  border-bottom: white 2px solid;
+  width: 14%;
+  margin-left: -50px;
 }
 
-#section_1 #logo-container i {
+#section_1 #name-container #michael {
+  border-bottom: white 2px solid;
+  width: 15%;
+}
+
+#section_1 #name-container #bitancor {
+  margin-left: 50px;
+}
+
+#section_1 #name-container #logo-container {
+  margin-left: 50px;
+}
+
+#section_1 #name-container #logo-container i {
   color: white;
-  padding: 10px 20px 0px 20px;
+  padding: 20px 15px 0px 15px;
 }
 
 .section-header-text {
@@ -30,10 +55,8 @@
   text-align: center;
 }
 
-#section_1 {
-  height: 100vh;
-}
-
 #section_2 {
-  height: 100vh;
+  background: url(../src/boby.jpg);
+  background-size: cover;
+  background-position-y: -150px;
 }
