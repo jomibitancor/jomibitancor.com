@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fp-nav{
+    span{
+        background: white;
+    }
+}
+
+#section_1{
+    background: black;
+
+    #name-container{
+        margin-left: 50%;
+        transform: translate(-25%, 0%);
+
+        .my-name{   
+            color: white;
+            font-size: 75px;
+            font-family: 'Montserrat';
+        }
+
+        #john{
+            border-bottom: white 2px solid;
+            width: 14%;
+            margin-left: -50px;
+        }
+
+        #michael{
+            border-bottom: white 2px solid;
+            width: 15%;
+        }
+
+        #bitancor{
+            margin-left: 50px;
+        }
+
+        #logo-container{
+            margin-left: 50px;
+            i{
+                color: white;
+                padding: 20px 15px 0px 15px;
+            }
+        }
+    }
+}
+
+.section-header-text{   
+    // color: white;
+    font-size: 60px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#section_1{
+}
+
+#section_2{
+    background: url(../src/boby.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+}
