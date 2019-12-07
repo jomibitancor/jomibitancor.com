@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#section_1{
+    background: black;
+
+    #name-container{
+        margin-left: 50%;
+        transform: translate(-25%, 0%);
+
+
+        #logo-container{
+            margin-left: 100px;
+            i{
+                padding: 20px 15px 0px 15px;
+            }
+        }
+    }
+}
+
+.section-header-text{   
+    font-size: 60px;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+
+#section_2{
+    background: url(../src/boby.jpg);
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+#section_3{
+    background: black;
+
+    #name{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+}

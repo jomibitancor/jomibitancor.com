@@ -1,0 +1,231 @@
+#john-svg #j {
+  stroke-dasharray: 195.98992919921875;
+  stroke-dashoffset: 195.98992919921875;
+  -webkit-animation: fill-anim 2s ease forwards 2.5s;
+          animation: fill-anim 2s ease forwards 2.5s;
+}
+
+#john-svg #o {
+  stroke-dasharray: 297.7860412597656;
+  stroke-dashoffset: 297.7860412597656;
+  -webkit-animation: fill-anim 2s ease forwards 2.7s;
+          animation: fill-anim 2s ease forwards 2.7s;
+}
+
+#john-svg #h {
+  stroke-dasharray: 284.4800109863281;
+  stroke-dashoffset: 284.4800109863281;
+  -webkit-animation: line-anim 2s ease forwards 0.4s;
+          animation: line-anim 2s ease forwards 0.4s;
+}
+
+#john-svg #n {
+  stroke-dasharray: 308.80767822265625;
+  stroke-dashoffset: 308.80767822265625;
+  -webkit-animation: line-anim 2s ease forwards 0.6s;
+          animation: line-anim 2s ease forwards 0.6s;
+}
+
+@-webkit-keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill-anim {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+@keyframes fill-anim {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+#michael-svg #m {
+  stroke-dasharray: 366.0242614746094;
+  stroke-dashoffset: 366.0242614746094;
+  -webkit-animation: fill-anim 2s ease forwards 2.9s;
+          animation: fill-anim 2s ease forwards 2.9s;
+}
+
+#michael-svg #i {
+  stroke-dasharray: 119.45600891113281;
+  stroke-dashoffset: 119.45600891113281;
+  -webkit-animation: fill-anim 2s ease forwards 3.1s;
+          animation: fill-anim 2s ease forwards 3.1s;
+}
+
+#michael-svg #c {
+  stroke-dasharray: 240.54856872558594;
+  stroke-dashoffset: 240.54856872558594;
+  -webkit-animation: line-anim 2s ease forwards 1.2s;
+          animation: line-anim 2s ease forwards 1.2s;
+}
+
+#michael-svg #h {
+  stroke-dasharray: 284.4800109863281;
+  stroke-dashoffset: 284.4800109863281;
+  -webkit-animation: line-anim 2s ease forwards 1.4s;
+          animation: line-anim 2s ease forwards 1.4s;
+}
+
+#michael-svg #a {
+  stroke-dasharray: 266.49652099609375;
+  stroke-dashoffset: 266.49652099609375;
+  -webkit-animation: line-anim 2s ease forwards 1.6s;
+          animation: line-anim 2s ease forwards 1.6s;
+}
+
+#michael-svg #e {
+  stroke-dasharray: 290.6719665527344;
+  stroke-dashoffset: 290.6719665527344;
+  -webkit-animation: line-anim 2s ease forwards 1.8s;
+          animation: line-anim 2s ease forwards 1.8s;
+}
+
+#michael-svg #l {
+  stroke-dasharray: 175.9040069580078;
+  stroke-dashoffset: 175.9040069580078;
+  -webkit-animation: line-anim 2s ease forwards 2s;
+          animation: line-anim 2s ease forwards 2s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill-anim {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
+
+#bitancor-svg #b {
+  stroke-dasharray: 347.4201965332031;
+  stroke-dashoffset: 347.4201965332031;
+  -webkit-animation: line-anim 2s ease forwards 2.2s;
+          animation: line-anim 2s ease forwards 2.2s;
+}
+
+#bitancor-svg #i {
+  stroke-dasharray: 190.3040008544922;
+  stroke-dashoffset: 190.3040008544922;
+  -webkit-animation: line-anim 2s ease forwards 2.4s;
+          animation: line-anim 2s ease forwards 2.4s;
+}
+
+#bitancor-svg #t {
+  stroke-dasharray: 266.49658203125;
+  stroke-dashoffset: 266.49658203125;
+  -webkit-animation: line-anim 2s ease forwards 2.6s;
+          animation: line-anim 2s ease forwards 2.6s;
+}
+
+#bitancor-svg #a {
+  stroke-dasharray: 308.80767822265625;
+  stroke-dashoffset: 308.80767822265625;
+  -webkit-animation: line-anim 2s ease forwards 2.8s;
+          animation: line-anim 2s ease forwards 2.8s;
+}
+
+#bitancor-svg #n {
+  stroke-dasharray: 240.5487518310547;
+  stroke-dashoffset: 240.5487518310547;
+  -webkit-animation: line-anim 2s ease forwards 3.0s;
+          animation: line-anim 2s ease forwards 3.0s;
+}
+
+#bitancor-svg #c {
+  stroke-dasharray: 297.7865295410156;
+  stroke-dashoffset: 297.7865295410156;
+  -webkit-animation: line-anim 2s ease forwards 3.2s;
+          animation: line-anim 2s ease forwards 3.2s;
+}
+
+#bitancor-svg #o {
+  stroke-dasharray: 304.8370056152344;
+  stroke-dashoffset: 304.8370056152344;
+  -webkit-animation: line-anim 2s ease forwards 3.4s;
+          animation: line-anim 2s ease forwards 3.4s;
+}
+
+#bitancor-svg #r {
+  stroke-dasharray: 119.45600891113281;
+  stroke-dashoffset: 119.45600891113281;
+  -webkit-animation: line-anim 2s ease forwards 3.6s;
+          animation: line-anim 2s ease forwards 3.6s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#logo-container i {
+  color: transparent;
+  -webkit-animation: logo-fade-in 1s ease-in forwards;
+          animation: logo-fade-in 1s ease-in forwards;
+}
+
+#logo-container #resume {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+#logo-container #github {
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+
+#logo-container #linkedin {
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+
+@-webkit-keyframes logo-fade-in {
+  from {
+    color: transparent;
+    -webkit-transform: translate(0%, 30%);
+            transform: translate(0%, 30%);
+  }
+  to {
+    color: white;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes logo-fade-in {
+  from {
+    color: transparent;
+    -webkit-transform: translate(0%, 30%);
+            transform: translate(0%, 30%);
+  }
+  to {
+    color: white;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+/*# sourceMappingURL=svg_anim.css.map */

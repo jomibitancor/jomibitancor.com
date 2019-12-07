@@ -9,19 +9,18 @@
   background: black;
 }
 
-#section_1 #my-name {
-  color: white;
-  font-size: 75px;
-  font-family: 'Montserrat';
+#section_1 #name-container {
+  margin-left: 50%;
+  -webkit-transform: translate(-25%, 0%);
+          transform: translate(-25%, 0%);
 }
 
-#section_1 #logo-container {
-  text-align: center;
+#section_1 #name-container #logo-container {
+  margin-left: 100px;
 }
 
-#section_1 #logo-container i {
-  color: white;
-  padding: 10px 20px 0px 20px;
+#section_1 #name-container #logo-container i {
+  padding: 20px 15px 0px 15px;
 }
 
 .section-header-text {
@@ -30,10 +29,21 @@
   text-align: center;
 }
 
-#section_1 {
-  height: 100vh;
+#section_2 {
+  background: url(../src/boby.jpg);
+  background-size: cover;
+  background-position-y: -150px;
 }
 
-#section_2 {
-  height: 100vh;
+#section_3 {
+  background: black;
 }
+
+#section_3 #name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
