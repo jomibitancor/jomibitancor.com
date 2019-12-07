@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-#fp-nav span {
-  background: white;
-}
-
 #section_1 {
   background: black;
 }
@@ -19,33 +15,11 @@
           transform: translate(-25%, 0%);
 }
 
-#section_1 #name-container .my-name {
-  color: white;
-  font-size: 75px;
-  font-family: 'Montserrat';
-}
-
-#section_1 #name-container #john {
-  border-bottom: white 2px solid;
-  width: 14%;
-  margin-left: -50px;
-}
-
-#section_1 #name-container #michael {
-  border-bottom: white 2px solid;
-  width: 15%;
-}
-
-#section_1 #name-container #bitancor {
-  margin-left: 50px;
-}
-
 #section_1 #name-container #logo-container {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 #section_1 #name-container #logo-container i {
-  color: white;
   padding: 20px 15px 0px 15px;
 }
 
@@ -60,3 +34,16 @@
   background-size: cover;
   background-position-y: -150px;
 }
+
+#section_3 {
+  background: black;
+}
+
+#section_3 #name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */

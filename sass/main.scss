@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-#fp-nav{
-    span{
-        background: white;
-    }
-}
-
 #section_1{
     background: black;
 
@@ -17,31 +11,10 @@
         margin-left: 50%;
         transform: translate(-25%, 0%);
 
-        .my-name{   
-            color: white;
-            font-size: 75px;
-            font-family: 'Montserrat';
-        }
-
-        #john{
-            border-bottom: white 2px solid;
-            width: 14%;
-            margin-left: -50px;
-        }
-
-        #michael{
-            border-bottom: white 2px solid;
-            width: 15%;
-        }
-
-        #bitancor{
-            margin-left: 50px;
-        }
 
         #logo-container{
-            margin-left: 50px;
+            margin-left: 100px;
             i{
-                color: white;
                 padding: 20px 15px 0px 15px;
             }
         }
@@ -49,17 +22,27 @@
 }
 
 .section-header-text{   
-    // color: white;
     font-size: 60px;
     font-family: 'Montserrat';
     text-align: center;
 }
 
-#section_1{
-}
 
 #section_2{
     background: url(../src/boby.jpg);
     background-size: cover;
     background-position-y: -150px;
+}
+
+#section_3{
+    background: black;
+
+    #name{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
 }

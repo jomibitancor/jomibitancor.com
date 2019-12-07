@@ -1,0 +1,165 @@
+#john-svg{
+    #j{
+        stroke-dasharray: 195.98992919921875;
+        stroke-dashoffset: 195.98992919921875;
+        // animation: line-anim 2s ease forwards;
+        animation: fill-anim 2s ease forwards 2.5s;
+    }
+    #o{
+        stroke-dasharray: 297.7860412597656;
+        stroke-dashoffset: 297.7860412597656;
+        // animation: line-anim 2s ease forwards 0.2s;
+        animation: fill-anim 2s ease forwards 2.7s;
+    }
+    #h{
+        stroke-dasharray: 284.4800109863281;
+        stroke-dashoffset: 284.4800109863281;
+        animation: line-anim 2s ease forwards 0.4s;
+    }
+    #n{
+        stroke-dasharray: 308.80767822265625;
+        stroke-dashoffset: 308.80767822265625;
+        animation: line-anim 2s ease forwards 0.6s;
+    }
+
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes fill-anim{
+        from{
+            fill: transparent;
+        }
+        to{
+            fill: white;
+        }
+    }
+}
+
+#michael-svg{
+    #m{
+        stroke-dasharray: 366.0242614746094;
+        stroke-dashoffset: 366.0242614746094;
+        // animation: line-anim 2s ease forwards 0.8s;
+        animation: fill-anim 2s ease forwards 2.9s;
+    }
+    #i{
+        stroke-dasharray: 119.45600891113281;
+        stroke-dashoffset: 119.45600891113281;
+        // animation: line-anim 2s ease forwards 1s;
+        animation: fill-anim 2s ease forwards 3.1s;
+    }
+    #c{
+        stroke-dasharray: 240.54856872558594;
+        stroke-dashoffset: 240.54856872558594;
+        animation: line-anim 2s ease forwards 1.2s;
+    }
+    #h{
+        stroke-dasharray: 284.4800109863281;
+        stroke-dashoffset: 284.4800109863281;
+        animation: line-anim 2s ease forwards 1.4s;
+    }
+    #a{
+        stroke-dasharray: 266.49652099609375;
+        stroke-dashoffset: 266.49652099609375;
+        animation: line-anim 2s ease forwards 1.6s;
+    }
+    #e{
+        stroke-dasharray: 290.6719665527344;
+        stroke-dashoffset: 290.6719665527344;
+        animation: line-anim 2s ease forwards 1.8s;
+    }
+    #l{
+        stroke-dasharray: 175.9040069580078;
+        stroke-dashoffset: 175.9040069580078;
+        animation: line-anim 2s ease forwards 2s;
+    }
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes fill-anim{
+        from{
+            fill: transparent;
+        }
+        to{
+            fill: white;
+        }
+    }
+}
+
+#bitancor-svg{
+    #b{
+        stroke-dasharray: 347.4201965332031;
+        stroke-dashoffset: 347.4201965332031;
+        animation: line-anim 2s ease forwards 2.2s;
+    }
+    #i{
+        stroke-dasharray: 190.3040008544922;
+        stroke-dashoffset: 190.3040008544922;
+        animation: line-anim 2s ease forwards 2.4s;
+    }
+    #t{
+        stroke-dasharray: 266.49658203125;
+        stroke-dashoffset: 266.49658203125;
+        animation: line-anim 2s ease forwards 2.6s;
+    }
+    #a{
+        stroke-dasharray: 308.80767822265625;
+        stroke-dashoffset: 308.80767822265625;
+        animation: line-anim 2s ease forwards 2.8s;
+    }
+    #n{
+        stroke-dasharray: 240.5487518310547;
+        stroke-dashoffset: 240.5487518310547;
+        animation: line-anim 2s ease forwards 3.0s;
+    }
+    #c{
+        stroke-dasharray: 297.7865295410156;
+        stroke-dashoffset: 297.7865295410156;
+        animation: line-anim 2s ease forwards 3.2s;
+    }
+    #o{
+        stroke-dasharray: 304.8370056152344;
+        stroke-dashoffset: 304.8370056152344;
+        animation: line-anim 2s ease forwards 3.4s;
+    }
+    #r{
+        stroke-dasharray: 119.45600891113281;
+        stroke-dashoffset: 119.45600891113281;
+        animation: line-anim 2s ease forwards 3.6s;
+    }
+    @keyframes line-anim{
+        to{
+            stroke-dashoffset: 0;
+        }
+    }
+}
+
+#logo-container{
+    i{
+        color: transparent;
+        animation: logo-fade-in 1s ease-in forwards;
+    }
+    #resume{
+        animation-delay: 5s;
+    }
+    #github{
+        animation-delay: 5.2s;
+    }
+    #linkedin{
+        animation-delay: 5.4s;
+    }
+    @keyframes logo-fade-in{
+        from{
+            color: transparent;
+            transform: translate(0%, 30%);
+        }
+        to{
+            color: white;
+            transform: translate(0%, 0%);
+        }
+    }
+}
