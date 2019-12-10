@@ -1,8 +1,16 @@
 @media (max-width: 766px) and (min-width: 300px) {
+  #fp-nav {
+    right: 0px !important;
+  }
   #name-container {
     margin-left: 20% !important;
     -webkit-transform: translate(-25%, 0%);
             transform: translate(-25%, 0%);
   }
+  #contact_section .form-container {
+    width: 80%;
+  }
+  #contact_section .form-container h1 {
+    font-size: 40px;
+  }
 }
-/*# sourceMappingURL=media_queries.css.map */

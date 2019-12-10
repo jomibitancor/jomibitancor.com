@@ -1,3 +1,18 @@
+<?php
+    define('SITE_KEY', '6LeEHccUAAAAAKug67SDFAKEqUilo8h8MuTDxucx');
+    define('SECRET_KEY', '6LeEHccUAAAAAKqucAofCGrFo2fT5H8I4BOf7Lia');
+
+    if($_POST){
+        function getCaptcha($SecretKey){
+            $Response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}");
+            $Return = json_decode($Response);
+            return $Return;
+        }
+        $Return = getCaptcha($_POST['response']);
+        var_dump($Return);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,6 +31,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0b3e758f0c.js" crossorigin="an1onymous"></script>
     <title>Jomi Bitancor</title>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
 </head>
 
 <body>
@@ -59,23 +76,30 @@
             </div>
 
         </section>
-        <section class="section" id="section_2">
+        <section class="section" id="contact_section">
             <div class="form-container">
                 <h1>CONTACT ME</h1>
-                <form action="">
+                <form method="POST" action="php/process_email.php">
                     <div class="form-group">
                         <label for="Name">Name</label>
-                        <input class="form-control" type="text">
+                        <input class="form-control" type="text" name="name">
                     </div>
                     <div class="form-group">
                         <label for="Email">Email</label>
-                        <input class="form-control" type="email">
+                        <input class="form-control" type="email" name="email">
                     </div>
                     <div class="form-group">
                         <label for="Message">Message</label>
-                        <input class="form-control" type="textarea">
+                        <textarea id="message" class="form-control" name="message" rows="4"></textarea>
                     </div>
+                    <input type="text" id="response" name="response">
+                    <input class="btn btn-outline-dark" type="submit" value="Send Form">
                 </form>
+                <script>
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'});
+                });
+                </script>
             </div>
         </section>
 

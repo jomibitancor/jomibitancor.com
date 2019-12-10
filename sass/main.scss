@@ -21,7 +21,7 @@
     }
 }
 
-#section_2{
+#contact_section{
     background: white;
 
     h1{
@@ -35,13 +35,15 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 30%;
+        width: 25%;
 
         label{
             font-family: 'Montserrat';
             color: black;
         }
     }
+
+    
 }
 
 // * Slider Container

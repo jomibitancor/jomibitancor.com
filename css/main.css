@@ -23,27 +23,26 @@
   padding: 20px 15px 0px 15px;
 }
 
-#section_2 {
+#contact_section {
   background: white;
 }
 
-#section_2 h1 {
+#contact_section h1 {
   font-family: 'Montserrat';
   color: black;
   font-size: 50px;
 }
 
-#section_2 .form-container {
+#contact_section .form-container {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 30%;
+  width: 25%;
 }
 
-#section_2 .form-container label {
+#contact_section .form-container label {
   font-family: 'Montserrat';
   color: black;
 }
-/*# sourceMappingURL=main.css.map */
