@@ -1,6 +1,5 @@
 <?php
-    define('SITE_KEY', '6LeEHccUAAAAAKug67SDFAKEqUilo8h8MuTDxucx');
-    define('SECRET_KEY', '6LeEHccUAAAAAKqucAofCGrFo2fT5H8I4BOf7Lia');
+    include '.env/keys.php';
 
     if($_POST){
         function getCaptcha($SecretKey){
@@ -9,7 +8,12 @@
             return $Return;
         }
         $Return = getCaptcha($_POST['response']);
-        var_dump($Return);
+        if($Return->success == true && $Return->score >0.5){
+            echo "Success!";
+        }else{
+            echo "Robot";
+        }
+
     }
 ?>
 
@@ -92,7 +96,7 @@
                         <label for="Message">Message</label>
                         <textarea id="message" class="form-control" name="message" rows="4"></textarea>
                     </div>
-                    <input type="text" id="response" name="response">
+                    <input type="hidden" id="response" name="response">
                     <input class="btn btn-outline-dark" type="submit" value="Send Form">
                 </form>
                 <script>
