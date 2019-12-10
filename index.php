@@ -1,3 +1,18 @@
+<?php
+    define('SITE_KEY', '6LeEHccUAAAAAKug67SDFAKEqUilo8h8MuTDxucx');
+    define('SECRET_KEY', '6LeEHccUAAAAAKqucAofCGrFo2fT5H8I4BOf7Lia');
+
+    if($_POST){
+        function getCaptcha($SecretKey){
+            $Response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".SECRET_KEY."&response={$SecretKey}");
+            $Return = json_decode($Response);
+            return $Return;
+        }
+        $Return = getCaptcha($_POST['response']);
+        var_dump($Return);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,14 +20,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/fullpage.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/svg_anim.css">
     <link rel="stylesheet" href="css/media_queries.css">
     <link rel="stylesheet" href="css/glide.core.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0b3e758f0c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0b3e758f0c.js" crossorigin="an1onymous"></script>
     <title>Jomi Bitancor</title>
+
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
 </head>
 
 <body>
@@ -56,6 +76,33 @@
             </div>
 
         </section>
+        <section class="section" id="contact_section">
+            <div class="form-container">
+                <h1>CONTACT ME</h1>
+                <form method="POST" action="php/process_email.php">
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input class="form-control" type="text" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input class="form-control" type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Message">Message</label>
+                        <textarea id="message" class="form-control" name="message" rows="4"></textarea>
+                    </div>
+                    <input type="text" id="response" name="response">
+                    <input class="btn btn-outline-dark" type="submit" value="Send Form">
+                </form>
+                <script>
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'});
+                });
+                </script>
+            </div>
+        </section>
+
         <!-- <section class="section" id="section_2">
             <h1 id="section-header">Websites and Projects</h1>
             <div id="glide-container">
@@ -77,6 +124,10 @@
         <section class="section" id="section_3">
         </section> -->
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="js/fullpage.min.js"></script>
     <script src="js/glide.min.js"></script>
