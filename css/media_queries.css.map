@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EAC3C,AAAA,eAAe,CAAA;IACX,WAAW,EAAE,cAAc;IAC3B,SAAS,EAAE,mBAAmB;GACjC",
+    "mappings": "",
     "sources": [
         "../sass/media_queries.scss"
     ],

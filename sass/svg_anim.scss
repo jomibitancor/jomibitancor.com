@@ -144,13 +144,16 @@
         animation: logo-fade-in 1s ease-in forwards;
     }
     #resume{
-        animation-delay: 5s;
+        animation-delay: 2s;
     }
     #github{
-        animation-delay: 5.2s;
+        animation-delay: 2.2s;
     }
     #linkedin{
-        animation-delay: 5.4s;
+        animation-delay: 2.4s;
+    }
+    #contact{
+        animation-delay: 2.6s;
     }
     @keyframes logo-fade-in{
         from{

@@ -189,18 +189,23 @@
 }
 
 #logo-container #resume {
-  -webkit-animation-delay: 5s;
-          animation-delay: 5s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
 }
 
 #logo-container #github {
-  -webkit-animation-delay: 5.2s;
-          animation-delay: 5.2s;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
 }
 
 #logo-container #linkedin {
-  -webkit-animation-delay: 5.4s;
-          animation-delay: 5.4s;
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+#logo-container #contact {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
 }
 
 @-webkit-keyframes logo-fade-in {
@@ -228,3 +233,4 @@
             transform: translate(0%, 0%);
   }
 }
+/*# sourceMappingURL=svg_anim.css.map */

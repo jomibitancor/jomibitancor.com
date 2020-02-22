@@ -8,12 +8,15 @@
     background: black;
 
     #name-container{
-        margin-left: 50%;
-        transform: translate(-25%, 0%);
+        position: absolute;   
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 
 
         #logo-container{
-            margin-left: 100px;
+            position: relative;
+            margin-left: 15%;
             i{
                 padding: 20px 15px 0px 15px;
             }
@@ -21,30 +24,6 @@
     }
 }
 
-#contact_section{
-    background: white;
-
-    h1{
-        font-family: 'Montserrat';
-        color: black;
-        font-size: 50px;
-    }
-
-    .form-container{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 25%;
-
-        label{
-            font-family: 'Montserrat';
-            color: black;
-        }
-    }
-
-    
-}
 
 // * Slider Container
 // TODO: You can uncomment this to see what we have so far for sliders. 

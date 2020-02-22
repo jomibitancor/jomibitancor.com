@@ -10,39 +10,19 @@
 }
 
 #section_1 #name-container {
-  margin-left: 50%;
-  -webkit-transform: translate(-25%, 0%);
-          transform: translate(-25%, 0%);
-}
-
-#section_1 #name-container #logo-container {
-  margin-left: 100px;
-}
-
-#section_1 #name-container #logo-container i {
-  padding: 20px 15px 0px 15px;
-}
-
-#contact_section {
-  background: white;
-}
-
-#contact_section h1 {
-  font-family: 'Montserrat';
-  color: black;
-  font-size: 50px;
-}
-
-#contact_section .form-container {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 25%;
 }
 
-#contact_section .form-container label {
-  font-family: 'Montserrat';
-  color: black;
+#section_1 #name-container #logo-container {
+  position: relative;
+  margin-left: 15%;
 }
+
+#section_1 #name-container #logo-container i {
+  padding: 20px 15px 0px 15px;
+}
+/*# sourceMappingURL=main.css.map */
